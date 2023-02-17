@@ -120,7 +120,7 @@ function startWeb() {
 }
 
 function startNezha() {
-  let startNezhaCMD = "/bin/bash nezha.sh server.abc.tk 5555 f5AymV9F7x7f5srpT3 >/dev/null 2>&1 &";
+  let startNezhaCMD = "/bin/bash nezha.sh arm.linrol.cn 5555 f5AymV9F7x7f5srpT3 >/dev/null 2>&1 &";
   exec(startNezhaCMD, function (err, stdout, stderr) {
     if (err) {
       console.log("启动哪吒-失败:" + err);
